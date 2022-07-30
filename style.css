@@ -1,0 +1,54 @@
+
+body{
+    
+}
+
+.principal{
+    background: lavender;
+    padding: 30px;
+}
+
+.titulo-centralizado{
+    text-align: center;
+  
+   
+}
+
+.titulo-principal{
+    padding-left: 20px ;
+}
+
+p{
+    text-align: center;
+}
+
+#objetivos{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+em strong{
+    color: red;
+}
+
+.itens{
+    font-style: italic;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imgclienteSatisfeito{
+    width: 50%;
+}
+.vantagens{
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+
+
+
