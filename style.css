@@ -1,54 +1,178 @@
 
-body{
+
+header{
+    background: darkslategray;
+    padding: 20px 0;
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+nav {
+    position: absolute;
+    top: 125px;
+    right: 0;
     
 }
 
-.principal{
-    background: lavender;
-    padding: 30px;
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
 }
 
-.titulo-centralizado{
+nav a:hover{
+    color: #DAA520;
+    text-decoration: underline;
+}
+
+footer{
     text-align: center;
-  
-   
+    background: url("imagens-servicos/textura-rodape.webp");
+    color: #BBBBBB;
+    padding: 30px 0;
 }
 
-.titulo-principal{
-    padding-left: 20px ;
+.computadorAssistencia{
+    width: 230px;
+    height: 190px;
+    border-radius: 10px;
 }
 
-p{
+.notebookAsssistencia{
+    width: 240px;
+    height: 210px;
+    border-radius: 10px;
+}
+
+.tabletCell{
+    width: 230px;
+    height: 190px;
+    border-radius: 10px;
+}
+
+.cellPecas{
+    width: 258px;
+    height: 198px;
+    border-radius: 10px;
+}
+
+.pecasComputador{
+    width: 258px;
+    height: 198px;
+    border-radius: 10px;
+}
+
+.pecasNotebook{
+    width: 243px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+.servicos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.servicos li{
+    display: inline-block;
     text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
 }
 
-#objetivos{
+.servicos li:hover{
+    border-color: #DAA520; 
+}
+
+.servicos li:hover h2{
+    font-size: 23px;
+} 
+
+.servicos li:active{
+
+    border-color: #20B2AA;
+}
+
+.servicos h2{
     font-size: 20px;
     font-weight: bold;
 }
 
-em strong{
-    color: red;
+.imagem-rodape{
+    width: 100px;
+    height: 100px;
+    opacity: 0.5;
+    border-radius: 48px;
+    background: none;
+
 }
 
-.itens{
-    font-style: italic;
+.configuracao-link{
+    color: #000000;
+    font-weight: bold;
+    font-size: 24px;
 }
 
-ul{
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+.copyright{
+    color: #FFFF;
+    font-size: 13px;
+    margin: 45px 0 0;
 }
 
-.imgclienteSatisfeito{
-    width: 50%;
+main {
+    width: 940px;
+    margin: 0 auto;
 }
-.vantagens{
-    background-color: #FFFFFF;
-    padding: 20px;
+form {
+    margin: 40px 0;
+}
+form label, form legend {
+    display: block; 
+    font-size: 20px;
+    margin: 0 0 10px;
+    
+}
+.input-padrao {
+    display: block;
+    margin: 0 0 10px;
+    padding: 8px 20px;
+    width: 32%;
+}
+.checkbox {
+    margin: 20px 0;
 }
 
+.enviar {
+    width: 30%;
+    padding: 8px 0;
+    background: lightseagreen;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+    transition: 0.7s all ;
+    cursor:pointer;
+}
+.enviar:hover {
+    background: rgb(19, 124, 119);
+    transform: scale(1.2);
+}
 
 
